@@ -8,7 +8,7 @@ public class funcAverage
         avg=(x+y+z)/3.0;
         return avg;
 
-    }
+    }                                                                                                                                    
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
