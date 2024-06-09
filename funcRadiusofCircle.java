@@ -1,11 +1,11 @@
 //Write a function that takes in the radius as input and returns the circumference of a circle.
 
 import java.util.*;
-public class funcRadiusOfCircle      
+public class funcRadiusofCircle      
 {
-    public static double funcRadiusOfCircle(double radius)
+    public static double funcRadiusofCircle(double raddius)
     {
-        double r=radius;
+        double r=raddius;
         double area =3.147*r*r;
         return area;
     }
@@ -15,7 +15,7 @@ public class funcRadiusOfCircle
         System.out.println("Enter  the radius of circle::");
         double r=sc.nextDouble();
 
-        System.out.println("the area of circle of Radius"+r+"is:::"+funcRadiusOfCircle(r));
+        System.out.println("the area of circle of Radius"+r+"is:::"+funcRadiusofCircle(r));
 
     }
 }
