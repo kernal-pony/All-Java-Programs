@@ -1,3 +1,9 @@
+/* 
+Find the maximum & minimum number in an array of integers. 
+
+*/
+
+
 import java.util.*;
 
 public class MAX_MIN_find_in_array
@@ -31,6 +37,7 @@ public class MAX_MIN_find_in_array
         }
         System.out.println("The smallest number is::"+max);
         System.out.println("The largest number is::"+min);
+        sc.close();
 
     }
 }
